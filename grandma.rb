@@ -1,7 +1,7 @@
-def speak_to_grandma(phrase)
-  if phrase != phrase.uppercase
+def speak_to_grandma(argument)
+  if argument != argument.uppercase
     return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == phrase.uppercase
+  elsif argument == argument.uppercase
     return "NO, NOT SINCE 1938!"
-  else phrase == "I LOVE YOU GRANDMA!"
+  else argument == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
